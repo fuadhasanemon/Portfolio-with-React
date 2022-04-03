@@ -23,8 +23,8 @@ const footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="#"><FaFacebookF /></a>
-        <a href="#"><FiInstagram /></a>
+        <a href="https://www.facebook.com/fuad.h.emon"><FaFacebookF /></a>
+        <a href="https://www.instagram.com/emonfuad/"><FiInstagram /></a>
         <a href="#"><IoLogoTwitter /></a>
       </div>
 
