@@ -22,7 +22,7 @@ return (
 
     <a href="#contact" className='scroll__down'>Scroll Down</a>
 
-    <div className="bubbles">
+    {/* <div className="bubbles">
       <img src={BUBBLE} alt="" />
       <img src={BUBBLE} alt="" />
       <img src={BUBBLE} alt="" />
@@ -30,7 +30,7 @@ return (
       <img src={BUBBLE} alt="" />
       <img src={BUBBLE} alt="" />
       <img src={BUBBLE} alt="" />
-    </div>
+    </div> */}
 
   </div>
 </header>
