@@ -15,15 +15,15 @@ const data = [
     id: 1,
     image: IMG6,
     title: 'Eduko Pathway',
-    github: '#',
+    github: 'JavaScript:void(0)',
     demo: 'https://bangladesh.edukopathways.com/',
   },
   {
     id: 2,
     image: IMG1,
-    title: 'My Portfolio',
-    github: 'https://github.com/fuadhasanemon/Portfolio',
-    demo: 'https://fuadhasanemon.github.io/Portfolio/',
+    title: 'Visual I',
+    github: 'JavaScript:void(0)',
+    demo: 'https://visualiweb.com/',
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const data = [
     id: 4,
     image: IMG3,
     title: 'Seon International',
-    github: '#',
+    github: 'JavaScript:void(0)',
     demo: 'https://soen-int.com/',
   },
   {
