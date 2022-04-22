@@ -20,18 +20,18 @@ const data = [
   {
     image: IMG1,
     name: 'Eliot',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae error odit, ratione cum inventore iste exercitationem rerum laborum nesciunt in',
+    review: 'Fuad offers small business web design and development. He offer more affordable services than other Freelancer, but his quality never falls short of expectations - I was given exactly what we discussed in my consultation with him! He developed my business website, and his business website development is more affordable than other professionals.',
     
   },
   {
     image: IMG2,
     name: 'Sara',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae error odit, ratione cum inventore iste exercitationem rerum laborum nesciunt in',
+    review: 'How to go forward with website development and website speed optimization cost used to bother me a lot as a young entrepreneur. Then I searched for a Web Developer and Found Fuad Hasan. Now my worries are gone, and my business page seems terrific! It is completely SEO optimized and on the rank! I recommend him 10/10.',
   },
   {
     image: IMG3,
-    name: 'Despite',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae error odit, ratione cum inventore iste exercitationem rerum laborum nesciunt in',
+    name: 'Alex',
+    review: 'Fuad helped me build a professional business website that fits all of my business needs! He is the best in his field of work as he offer transparency, affordability, and high-quality services. With him, I’ve built my business website from scratch for the most affordable prices in town! He is very professional.',
   }
 ]
 
@@ -47,7 +47,8 @@ const testimonials = () => {
         spaceBetween={50}
         slidesPerView={1}
         pagination={{ clickable: true }}
-        autoplay={{ delay: 5000 }}
+        autoplay={{ delay: 4000 }}
+        
         
       >
         {
