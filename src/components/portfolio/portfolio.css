@@ -39,6 +39,14 @@
     
 }
 
+.loadMore {
+    text-align: center;
+}
+
+.loadMore .btn {
+    margin-top: 2rem;
+}
+
 
 /* Responsive */
 
