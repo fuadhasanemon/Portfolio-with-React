@@ -102,10 +102,10 @@ const data = [
 const Portfolio = () => {
 
   
-  const [visible, setVisible] = useState(3);
+  const [visible, setVisible] = useState(2);
 
   const showLoadMore = () => {
-    setVisible((prevValue) => prevValue + 3);
+    setVisible((prevValue) => prevValue + 2);
   }
 
   return (
