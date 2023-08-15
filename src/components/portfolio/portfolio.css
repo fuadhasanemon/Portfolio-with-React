@@ -1,77 +1,84 @@
 .portfolio__container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
 }
 
 .portfolio__item {
-    background: var(--color-bg-variant);
-    padding: 1.2rem;
-    border-radius: 15px;
-    border: 1px solid transparent;
-    transition: var(--transition);
+  background: var(--color-bg-variant);
+  padding: 1.2rem;
+  border-radius: 15px;
+  border: 1px solid transparent;
+  transition: var(--transition);
 }
 
 .portfolio__item:hover {
-    border-color: var(--color-primary-variant);
-    background: transparent;
+  border-color: var(--color-primary-variant);
+  background: transparent;
 }
 
 .portfolio__item-image {
-    border-radius: 15px;
-    overflow: hidden;
-    height: 500px;
-    filter: grayscale(1);
-    transition: var(--transition);
+  border-radius: 15px;
+  overflow: hidden;
+  height: 500px;
+  filter: grayscale(1);
+  transition: var(--transition);
 }
 
 .portfolio__item-image:hover {
-    filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+.portfolio__item-image img {
+  transition: transform 1s ease-in-out;
+  border-radius: 15px;
+}
+
+.portfolio__item-image:hover img {
+  transform: translateY(calc(-100% + 400px));
+  transition: transform 5s ease-in-out;
 }
 
 .portfolio__item h3 {
-    margin: 1rem 0 1rem;
+  margin: 1rem 0 1rem;
 }
 
 .portfolio__item-cta {
-    display: flex;
-    gap: 1rem;
-    
+  display: flex;
+  gap: 1rem;
 }
 
 .loadMore {
-    text-align: center;
+  text-align: center;
 }
 
 .loadMore .btn {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
-
 
 /* Responsive */
 
 @media screen and (max-width: 1024px) {
-    .portfolio__container {
-        grid-template-columns: 1fr 1fr;
-        gap: 0.8rem;
-    }
+  .portfolio__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .portfolio__container {
-        grid-template-columns: 1fr;
-        gap: 0.5rem;
-    }
+  .portfolio__container {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
 
-    .portfolio__item {
-        padding: 0.9rem;
-    }
+  .portfolio__item {
+    padding: 0.9rem;
+  }
 
-    .portfolio__item-image {
-        filter: grayscale(0);
-    }
+  .portfolio__item-image {
+    filter: grayscale(0);
+  }
 }
 
 @media screen and (max-width: 400px) {
-    
 }
