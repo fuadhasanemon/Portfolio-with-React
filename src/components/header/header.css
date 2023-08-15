@@ -2,6 +2,13 @@
   height: 100vh;
   /* padding-top: 4rem; */
   overflow: hidden;
+  position: relative;
+}
+
+.blogs {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .header__container {
@@ -70,6 +77,10 @@
 }
 
 @media screen and (max-width: 600px) {
+  .blogs {
+    right: 30px;
+    top: 30px;
+  }
   .cta {
     justify-content: space-between;
   }

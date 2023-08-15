@@ -7,6 +7,7 @@ import "./header.css";
 const header = () => {
   return (
     <section>
+      {/* <NavBar /> */}
       <div className="hero">
         <div className="container header__container">
           <h5>Hello I'am</h5>
