@@ -8,7 +8,11 @@ import Nav from "./components/nav/Nav";
 import Portfolio from "./components/portfolio/Portfolio";
 import Testimonials from "./components/testimonials/Testimonials";
 
+
 const App = () => {
+
+ 
+
   return (
     <div>
       {/* <NavBar /> */}
